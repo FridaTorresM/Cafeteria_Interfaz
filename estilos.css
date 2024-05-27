@@ -1,0 +1,192 @@
+.roo{
+  --primary-shadow: #8b8eaf;
+}
+/* estilos.css */
+body {
+  background: rgb(250, 249, 246);
+}
+
+/* Texto centrado */
+.p1 {
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Imágenes */
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+}
+
+/* Información acerca del menú que se muestra en la página */
+header {
+  background-color: rgb(133, 118, 92);
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #010102;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #0a0101;
+  background-color: #ebebeb;
+}
+
+/* Botón número 1 */
+.button1 {
+  background-color: #b98c61;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #503a20; /* Hover effect */
+}
+
+/* Información video1 - Fondo */
+.video1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+  font-size: medium;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Alerta de privacidad */
+.privacy-alert {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy-alert p {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.privacy-alert a {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.privacy-alert button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.privacy-alert button:hover {
+  background-color: #0056b3;
+}
+
+/********************************************/
+.pasteles{
+  background-color: #fcfcfc;
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+
+.pasteles-pic{
+  width: 65%;
+  height: 60%;
+}
+
+
+.pasteles-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.pastele-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+
+
+ .pasteles-card{
+    background-color:#ffe7cc;
+    border-radius: 11px;
+    box-shadow: #8b8eaf;
+    padding: 20px;
+    margin: 10px;
+
+ }
